@@ -10,7 +10,7 @@ best way to understand how a debugger work is to _go through the process of buil
 difficult for me when the codebase grows and things becomes too hard to have a bird view of, while making sure  
 everything has the right values.
 
-3. Print debugging does not scale well. The process of adding log statements, recompiling, and re-running the program  
+3. Print debugging does not scale well. The process of adding log statements, recompiling, and re-running the program
 everytime I want to make an experiment is **inefficient**.
 
 4. Provide a better debugging experience. I'd like to build a tool that will **educate** beginners, but will **inform**  
