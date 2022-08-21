@@ -11,7 +11,7 @@
 #include <utility>
 #include <string>
 #include <linux/types.h>
-
+#include <sstream>
 #include <vector>
 
 namespace kdb{
@@ -20,6 +20,11 @@ namespace kdb{
         void handle_command(const std::string& line);
         void continue_execution();
         bool is_prefix(const std::string& s, const std::string& of);
+
+        /// \param  s               -> String to split
+        /// \param  delimiter       -> Delimitation character
+        /// \return vector          -> List of tokens extracted from param "s"
+        /// \description            -> Splits "s" into a series of tokens based on "delimiter"
         std::vector<std::string> split(const std::string &s, char delimiter);
 
         //Target program name, and PID
