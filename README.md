@@ -19,8 +19,8 @@ more advanced users. This project is just me learning, and if you're skilled, yo
 # Dependencies, Tools, or Frameworks 🛠️
 
 - [CMake](https://cmake.org/): To compile the project
-- [Linenoise](https://github.com/antirez/linenoise): For handling our command line input
-- [Libelfin](https://github.com/TartanLlama/libelfin/tree/fbreg): For parsing debug information
+- [Linenoise](https://github.com/antirez/linenoise): To handle command line inputs
+- [Libelfin](https://github.com/TartanLlama/libelfin/tree/fbreg): To parse debug information
 
 # Goals 🎯
 
