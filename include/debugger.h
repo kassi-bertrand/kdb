@@ -19,7 +19,12 @@ namespace kdb{
     private:
         void handle_command(const std::string& line);
         void continue_execution();
-        bool is_prefix(const std::string& s, const std::string& of);
+
+        /// \param sub              -> Substring
+        /// \param str              -> String to match "sub" against
+        /// \return boolean         -> True/False
+        /// \description            -> Determines whether "str" starts with "sub"
+        bool is_prefix(const std::string& sub, const std::string& str);
 
         /// \param  s               -> String to split
         /// \param  delimiter       -> Delimitation character
